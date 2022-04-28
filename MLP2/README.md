@@ -13,7 +13,7 @@ Dataset Size: 2 columns and 333333 unique values
 
 Description: A daily sample of Wordle results tweets since Wordle 210.
 
-AttributeName: 
+Description: 
   
   - wordle_id (int) - The wordle id for the day
   - tweet_id (int) - The id of the tweet
@@ -22,3 +22,15 @@ AttributeName:
   - tweet_text (string) - The contents of the tweet
 
 Dataset Size: 5 columns and 486000 unique values
+
+# answers.csv
+Description: This dataset contains every wordle answer in order
+AttributeNames
+  - word (string) - The word in question
+Dataset Size:1 column and 2315 unique values
+
+# other_words.csv
+Description: This dataset contains every acceptable wordle guess that isn't an answer
+AttributeNames
+  - word (string) - The word in question
+Dataset Size:1 column and 10,657 unique values
