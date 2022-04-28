@@ -27,10 +27,12 @@ Dataset Size: 5 columns and 486000 unique values
 Description: This dataset contains every wordle answer in order
 AttributeNames
   - word (string) - The word in question
+  
 Dataset Size:1 column and 2315 unique values
 
 # other_words.csv
 Description: This dataset contains every acceptable wordle guess that isn't an answer
 AttributeNames
   - word (string) - The word in question
+  
 Dataset Size:1 column and 10,657 unique values
